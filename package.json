@@ -1,0 +1,35 @@
+{
+    "name": "antd",
+    "displayName": "Ant Design 5 (Antd Snippets)",
+    "description": "Ant-Design4~5 Snippets for VS Code",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.73.0"
+    },
+    "icon": "logo.png",
+    "license": "MIT",
+    "publisher": "yuancong",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YUANC0NG/vscode-antd-plugin"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/jsComponent.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/jsComponent.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/jsComponent.code-snippets"
+            }
+        ]
+    }
+}

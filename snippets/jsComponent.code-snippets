@@ -1,0 +1,470 @@
+// jsComponent copy.code-snippets 文件如下配置
+{
+    "import antd": {
+        "prefix": "im",
+        "body": [
+            "import { ${0} } from 'antd';",
+        ],
+    },
+    "import @ant-design/icons": {
+        "prefix": "im",
+        "body": [
+            "import { ${0} } from '@ant-design/icons';",
+        ],
+    },
+    "antd-Tooltip": {
+        "prefix": "Tooltip",
+        "body": [
+            "<Tooltip title='${0}'>",
+            "    <span>Tooltip will show on mouse enter.</span>",
+            "</Tooltip>"
+        ],
+    },
+    "antd-Button": {
+        "prefix": "Button",
+        "body": [
+            "<Button type='primary'>",
+            "    ${1:Primary Button}",
+            "</Button>"
+        ],
+    },
+    "antd-Divider": {
+        "prefix": "Divider",
+        "body": [
+            "<Divider />"
+        ],
+    },
+    "antd-Row": {
+        "prefix": "Row",
+        "body": [
+            "<Row>",
+            "   <Col span={24}>${1:col}</Col>",
+            "</Row>"
+        ],
+    },
+    "antd-Layout": {
+        "prefix": "Layout",
+        "body": [
+            "<Layout>",
+            "    <Header>Header</Header>",
+            "    <Content>Content</Content>",
+            "    <Footer>Footer</Footer>",
+            "</Layout>",
+        ],
+    },
+    "antd-Space": {
+        "prefix": "Space",
+        "body": [
+            "<Space>",
+            "    ${0}",
+            "</Space>"
+        ],
+    },
+    "antd-Anchor": {
+        "prefix": "Anchor",
+        "body": [
+            "<Anchor>",
+            "    <Link href='#components-anchor-demo-basic' title='Basic demo' />",
+            "    <Link href='#components-anchor-demo-static' title='Static demo' />",
+            "    <Link href='#api' title='API'>",
+            "        <Link href='#anchor-props' title='Anchor Props' />",
+            "        <Link href='#link-props' title='Link Props' />",
+            "    </Link>",
+            "</Anchor>",
+        ],
+    },
+    "antd-Breadcrumb": {
+        "prefix": "Breadcrumb",
+        "body": [
+            "<Breadcrumb>",
+            "    <Breadcrumb.Item>Home</Breadcrumb.Item>",
+            "    <Breadcrumb.Item>Application</Breadcrumb.Item>",
+            "</Breadcrumb>",
+        ],
+    },
+    "antd-Dropdown": {
+        "prefix": "Dropdown",
+        "body": [
+            "<Dropdown menu={{ items }}>",
+            "    <a>Hover me</a>",
+            "</Dropdown>",
+        ],
+    },
+    "antd-Pagination": {
+        "prefix": "Pagination",
+        "body": [
+            "<Pagination defaultCurrent={1} total={50} />",
+        ],
+    },
+    "antd-Steps": {
+        "prefix": "Steps",
+        "body": [
+            "<Steps items={items} />",
+        ],
+    },
+    "antd-AutoComplete": {
+        "prefix": "AutoComplete",
+        "body": [
+            " <AutoComplete",
+            "    options={options}",
+            "    style={{ width: 200, }}",
+            "    onSelect={onSelect}",
+            "    onSearch={onSearch}",
+            "    placeholder='input here'",
+            " />",
+        ],
+    },
+    "antd-Cascader": {
+        "prefix": "Cascader",
+        "body": [
+            "<Cascader options={options} onChange={onChange} placeholder='Please select' />",
+        ],
+    },
+    "antd-DatePicker": {
+        "prefix": "DatePicker",
+        "body": [
+            "<DatePicker onChange={onChange} />",
+        ],
+    },
+    "antd-Form": {
+        "prefix": "Form",
+        "body": [
+            "// https://ant-design.gitee.io/components/form-cn",
+        ],
+    },
+    "antd-Input": {
+        "prefix": "Input",
+        "body": [
+            "<Input placeholder='${0}' />",
+        ],
+    },
+    "antd-InputNumber": {
+        "prefix": "InputNumber",
+        "body": [
+            "<InputNumber min={1} max={10} defaultValue={3} onChange={onChange} />",
+        ],
+    },
+    "antd-Mentions": {
+        "prefix": "Mentions",
+        "body": [
+            "<Mentions onChange={onChange}>",
+            "    <Option value='afc163'>afc163</Option>",
+            "    <Option value='zombieJ'>zombieJ</Option>",
+            "</Mentions>",
+        ],
+    },
+    "antd-Radio": {
+        "prefix": "Radio",
+        "body": [
+            "<Radio.Group onChange={onChange} value={value}>",
+            "    <Radio value={1}>A</Radio>",
+            "    <Radio value={2}>B</Radio>",
+            "</Radio.Group>",
+        ],
+    },
+    "antd-Rate": {
+        "prefix": "Rate",
+        "body": [
+            "<Rate />",
+        ],
+    },
+    "antd-Select": {
+        "prefix": "Select",
+        "body": [
+            "<Select onChange={handleChange} options={[{ value: 'a', label: 'a' }]}/>",
+        ],
+    },
+    "antd-Slider": {
+        "prefix": "Slider",
+        "body": [
+            "<Slider defaultValue={30} disabled={disabled} />",
+        ],
+    },
+    "antd-Switch": {
+        "prefix": "Switch",
+        "body": [
+            "<Switch defaultChecked onChange={onChange} />",
+        ],
+    },
+    "antd-TimePicker": {
+        "prefix": "TimePicker",
+        "body": [
+            "<TimePicker onChange={onChange} defaultOpenValue={dayjs('00:00:00', 'HH:mm:ss')} />",
+        ],
+    },
+    "antd-Transfer": {
+        "prefix": "Transfer",
+        "body": [
+            "// https://ant-design.gitee.io/components/transfer-cn",
+        ],
+    },
+    "antd-TreeSelect": {
+        "prefix": "TreeSelect",
+        "body": [
+            "// https://ant-design.gitee.io/components/tree-select-cn",
+        ],
+    },
+    "antd-Upload": {
+        "prefix": "Upload",
+        "body": [
+            "<Upload {...props}>",
+            "    <Button icon={<UploadOutlined />}>Click to Upload</Button>",
+            "</Upload>",
+        ],
+    },
+    "antd-Avatar": {
+        "prefix": "Avatar",
+        "body": [
+            "<Avatar size={64} icon={<UserOutlined />} />",
+        ],
+    },
+    "antd-Badge": {
+        "prefix": "Badge",
+        "body": [
+            "<Badge count={5}>",
+            "    ${0}",
+            "</Badge>",
+        ],
+    },
+    "antd-Calendar": {
+        "prefix": "Calendar",
+        "body": [
+            "<Calendar onPanelChange={onPanelChange} />",
+        ],
+    },
+    "antd-Card": {
+        "prefix": "Card",
+        "body": [
+            "<Card",
+            "    title='${0}'",
+            "    extra={<a href=''>More</a>}",
+            ">",
+            "    <p>Card content</p>",
+            "    <p>Card content</p>",
+            "    <p>Card content</p>",
+            "</Card>",
+        ],
+    },
+    "antd-Carousel ": {
+        "prefix": "Carousel",
+        "body": [
+            "<Carousel afterChange={onChange}>",
+            "    <div>Card content</div>",
+            "    <div>Card content</div>",
+            "</Carousel>",
+        ],
+    },
+    "antd-Collapse  ": {
+        "prefix": "Collapse",
+        "body": [
+            "<Collapse defaultActiveKey={['1']} onChange={onChange}>",
+            "    <Panel header='This is panel header' key='1'>",
+            "     https://ant-design.gitee.io/components/collapse-cn",
+            "    </Panel>",
+            "</Collapse>",
+        ],
+    },
+    "antd-Descriptions": {
+        "prefix": "Descriptions",
+        "body": [
+            " <Descriptions title='${0}'>",
+            "    <Descriptions.Item label='UserName'>Zhou Maomao</Descriptions.Item>",
+            "</Descriptions>",
+        ],
+    },
+    "antd-Empty": {
+        "prefix": "Empty",
+        "body": [
+            "<Empty />",
+        ],
+    },
+    "antd-Image": {
+        "prefix": "Image",
+        "body": [
+            "<Image",
+            "    width={200}",
+            "    src='https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'",
+            "/>",
+        ],
+    },
+    "antd-List": {
+        "prefix": "List",
+        "body": [
+            "<List",
+            "    header={<div>Header</div>}",
+            "    footer={<div>Footer</div>}",
+            "    bordered",
+            "    dataSource={data}",
+            "    renderItem={(item) => (",
+            "    <List.Item>",
+            "    <Typography.Text mark>[ITEM]</Typography.Text> {item}",
+            "    </List.Item>",
+            "    )}",
+            "/>",
+        ],
+    },
+    "antd-Popover": {
+        "prefix": "Popover",
+        "body": [
+            "<Popover content={content} title='${0}'>",
+            "    <Button type='primary'>Hover me</Button>",
+            "</Popover>",
+        ],
+    },
+    "antd-Segmented": {
+        "prefix": "Segmented",
+        "body": [
+            "<Segmented options={['Daily', 'Weekly', 'Monthly', 'Quarterly', 'Yearly']} />",
+        ],
+    },
+    "antd-Statistic": {
+        "prefix": "Statistic ",
+        "body": [
+            "<Statistic title='Active Users' value={112893} />",
+        ],
+    },
+    "antd-Table": {
+        "prefix": "Table",
+        "body": [
+            "<Table dataSource={dataSource} columns={columns} />",
+            "// https://ant-design.gitee.io/components/table-cn",
+        ],
+    },
+    "antd-Tabs": {
+        "prefix": "Tabs",
+        "body": [
+            "<Tabs items={[{ label: '项目 1', key: 'item-1', children: '内容 1' }]} />",
+        ],
+    },
+    "antd-Tag": {
+        "prefix": "Tag ",
+        "body": [
+            "<Tag>Tag 1</Tag>",
+        ],
+    },
+    "antd-Timeline": {
+        "prefix": "Timeline",
+        "body": [
+            "<Timeline>",
+            "    <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>",
+            "    <Timeline.Item>Solve initial network problems 2015-09-01</Timeline.Item>",
+            "    <Timeline.Item>Technical testing 2015-09-01</Timeline.Item>",
+            "    <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>",
+            "</Timeline>",
+        ],
+    },
+    "antd-Tree": {
+        "prefix": "Tree",
+        "body": [
+            "// https://ant-design.gitee.io/components/tree-cn",
+            "<Tree",
+            "    checkable",
+            "    defaultExpandedKeys={['0-0-0', '0-0-1']}",
+            "    defaultSelectedKeys={['0-0-0', '0-0-1']}",
+            "    defaultCheckedKeys={['0-0-0', '0-0-1']}",
+            "    onSelect={onSelect}",
+            "    onCheck={onCheck}",
+            "    treeData={treeData}",
+            "/>",
+        ],
+    },
+    "antd-Alert": {
+        "prefix": "Alert",
+        "body": [
+            "<Alert message='${0} type='success' />",
+        ],
+    },
+    "antd-Drawer": {
+        "prefix": "Drawer",
+        "body": [
+            "<Drawer title='${0}' placement='right' onClose={onClose} open={open}>",
+            "    <p>Some contents...</p>",
+            "</Drawer>",
+        ],
+    },
+    "antd-message": {
+        "prefix": "message",
+        "body": [
+            "message.info('Hello, Ant Design!');",
+        ],
+    },
+    "antd-Modal": {
+        "prefix": "Modal",
+        "body": [
+            "<Modal title='Basic Modal' open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>",
+            "    <p>Some contents...</p>",
+            "    <p>Some contents...</p>",
+            "    <p>Some contents...</p>",
+            "</Modal>",
+        ],
+    },
+    "antd-notification": {
+        "prefix": "notification",
+        "body": [
+            "notification.open({",
+            "    message: 'Notification Title',",
+            "    description: 'This is content'",
+            "    onClick: () => { console.log('Notification Clicked!'); }",
+            "});",
+        ],
+    },
+    "antd-Popconfirm": {
+        "prefix": "Popconfirm",
+        "body": [
+            "<Popconfirm",
+            "    title='Are you sure to delete this task?'",
+            "    onConfirm={confirm}",
+            "    onCancel={cancel}",
+            "    okText='Yes'",
+            "    cancelText='No'",
+            ">",
+            "    <a href='#'>Delete</a>",
+            "</Popconfirm>",
+        ],
+    },
+    "antd-Progress": {
+        "prefix": "Progress",
+        "body": [
+            "<Progress percent={30} />",
+        ],
+    },
+    "antd-Result": {
+        "prefix": "Result",
+        "body": [
+            "<Result",
+            "    status='success'",
+            "    title='Successfully Purchased Cloud Server ECS!'",
+            "    subTitle='Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.'",
+            "    extra={[",
+            "        <Button type='primary' key='console'>",
+            "            Go Console",
+            "        </Button>,",
+            "        <Button key='buy'>Buy Again</Button>",
+            "    ]}",
+            "/>",
+        ],
+    },
+    "antd-Spin": {
+        "prefix": "Spin",
+        "body": [
+            "<Spin spinning={loading}>",
+            "    content",
+            "</Spin>",
+        ],
+    },
+    "antd-ConfigProvider ": {
+        "prefix": "ConfigProvider",
+        "body": [
+            "<ConfigProvider >",
+            "    // https://4x.ant.design/components/config-provider-cn/",
+            "</ConfigProvider>",
+        ],
+    },
+    "antd-FloatButton  ": {
+        "prefix": "FloatButton",
+        "body": [
+            "<FloatButton onClick={() => console.log('click')} />",
+            "// https://ant-design.gitee.io/components/float-button-cn",
+        ],
+    },
+}
