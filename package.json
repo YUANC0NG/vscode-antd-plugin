@@ -4,7 +4,7 @@
     "description": "Ant-Design4~5 Snippets for VS Code",
     "version": "0.0.2",
     "engines": {
-        "vscode": "^1.73.0"
+        "vscode": "^1.5.0"
     },
     "icon": "logo.png",
     "license": "MIT",
@@ -28,6 +28,22 @@
             },
             {
                 "language": "typescript",
+                "path": "./snippets/jsComponent.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/jsComponent.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/jsComponent.code-snippets"
+            },
+            {
+                "language": "handlebars",
+                "path": "./snippets/jsComponent.code-snippets"
+            },
+            {
+                "language": "razor",
                 "path": "./snippets/jsComponent.code-snippets"
             }
         ]

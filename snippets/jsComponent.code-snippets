@@ -126,10 +126,28 @@
             "<DatePicker onChange={onChange} />",
         ],
     },
-    "antd-Form": {
+    "antd-Form-hooks": {
         "prefix": "Form",
         "body": [
-            "// https://ant-design.gitee.io/components/form-cn",
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/form-cn $BLOCK_COMMENT_END",
+            "const [form] = Form.useForm();",
+            "<Form {...layout} form={form} name=\"control-hooks\" onFinish={onFinish}>",
+            "    <Form.Item name=\"note\" label=\"Note\" rules={[ { required: true, } ]} >",
+            "        <Input />",
+            "    </Form.Item>",
+            "</Form>",
+        ],
+    },
+    "antd-Form-class": {
+        "prefix": "Form",
+        "body": [
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/form-cn $BLOCK_COMMENT_END",
+            "formRef = React.createRef();",
+            " <Form {...layout} ref={this.formRef} name=\"control-ref\" onFinish={this.onFinish}>",
+            "    <Form.Item name=\"note\" label=\"Note\" rules={[ { required: true, } ]} >",
+            "        <Input />",
+            "    </Form.Item>",
+            "</Form>",
         ],
     },
     "antd-Input": {
@@ -195,13 +213,13 @@
     "antd-Transfer": {
         "prefix": "Transfer",
         "body": [
-            "// https://ant-design.gitee.io/components/transfer-cn",
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/transfer-cn $BLOCK_COMMENT_START",
         ],
     },
     "antd-TreeSelect": {
         "prefix": "TreeSelect",
         "body": [
-            "// https://ant-design.gitee.io/components/tree-select-cn",
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/tree-select-cn $BLOCK_COMMENT_START",
         ],
     },
     "antd-Upload": {
@@ -259,7 +277,7 @@
         "body": [
             "<Collapse defaultActiveKey={['1']} onChange={onChange}>",
             "    <Panel header='This is panel header' key='1'>",
-            "     https://ant-design.gitee.io/components/collapse-cn",
+            "     $BLOCK_COMMENT_START https://ant-design.gitee.io/components/collapse-cn $BLOCK_COMMENT_END",
             "    </Panel>",
             "</Collapse>",
         ],
@@ -326,8 +344,8 @@
     "antd-Table": {
         "prefix": "Table",
         "body": [
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/table-cn $BLOCK_COMMENT_END",
             "<Table dataSource={dataSource} columns={columns} />",
-            "// https://ant-design.gitee.io/components/table-cn",
         ],
     },
     "antd-Tabs": {
@@ -356,7 +374,7 @@
     "antd-Tree": {
         "prefix": "Tree",
         "body": [
-            "// https://ant-design.gitee.io/components/tree-cn",
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/tree-cn $BLOCK_COMMENT_END",
             "<Tree",
             "    checkable",
             "    defaultExpandedKeys={['0-0-0', '0-0-1']}",
@@ -456,15 +474,15 @@
         "prefix": "ConfigProvider",
         "body": [
             "<ConfigProvider >",
-            "    // https://4x.ant.design/components/config-provider-cn/",
+            "    $BLOCK_COMMENT_START https://4x.ant.design/components/config-provider-cn/ $BLOCK_COMMENT_END",
             "</ConfigProvider>",
         ],
     },
     "antd-FloatButton  ": {
         "prefix": "FloatButton",
         "body": [
+            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/float-button-cn $BLOCK_COMMENT_END",
             "<FloatButton onClick={() => console.log('click')} />",
-            "// https://ant-design.gitee.io/components/float-button-cn",
         ],
     },
 }
