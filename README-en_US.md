@@ -10,21 +10,21 @@ Ant-Design4-5 Snippets for VS Code
 
 </div>
 
-[下载 Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=yuancong.antd)
+[Download from Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=yuancong.antd)
 
 If this extension is helpful to you, please vote ⭐️⭐️⭐️⭐️⭐️ at [Marketplace](https://marketplace.visualstudio.com/items?itemName=yuancong.antd) 😉.
 
-中文 | [English](./README-en_US.md)
+English | [中文](./README-zh_CN.md)
 
 
-## 支持版本
+## Support Version
 
-- 🌐 插件支持 Antd v4.x and v5.0 版本，并且支持所有Antd组件!
+- 🌐 Extension support both Antd v4.x and v5.0 documentation,and supports Antd all components!
 
 
-## 使用方法
+## Usage
 
-- ⚡️ 输入组件名称，即可快捷创建组件代码片段！
+- ⚡️ Enter Antd name to create a component
 
 Trigger | Description
 --- | ---
