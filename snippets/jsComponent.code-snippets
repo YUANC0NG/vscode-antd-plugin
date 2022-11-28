@@ -23,8 +23,8 @@
     "antd-Button": {
         "prefix": "Button",
         "body": [
-            "<Button type='primary'>",
-            "    ${1:Primary Button}",
+            "<Button type=\"${1|default,primary,dashed,text,link|}\">",
+            "    ${2:Input Button Name}",
             "</Button>"
         ],
     },
