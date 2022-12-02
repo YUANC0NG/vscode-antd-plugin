@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/fi3ework/vscode-antd-rush">
-    <img width="200px" height="200px" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+    <img width="150" height="150" src="https://s1.ax1x.com/2022/12/02/zDeeeK.png">
   </a>
 </p>
 <h1 align="center">Antd Design5 Snippets</h1>

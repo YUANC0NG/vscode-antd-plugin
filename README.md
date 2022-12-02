@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/fi3ework/vscode-antd-rush">
-    <img width="200px" height="200px" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
-  </a>
+    <img width="150" height="150" src="https://s1.ax1x.com/2022/12/02/zDeeeK.png">
+    </a>
 </p>
 <h1 align="center">Antd Design5 Snippets</h1>
 <div align="center">
@@ -16,28 +16,28 @@ If this extension is helpful to you, please vote ⭐️⭐️⭐️⭐️⭐️ 
 
 中文 | [English](./README-en_US.md)
 
-
 ## 支持版本
 
-- 🌐 插件支持 Antd v4.x and v5.0 版本，并且支持所有Antd组件!
-
+- 🌐 插件支持 Antd v4.x and v5.0 版本，并且支持所有 Antd 组件!
 
 ## 使用方法
 
 - ⚡️ 输入组件名称，即可快捷创建组件代码片段！
 
-Trigger | Description
---- | ---
-Button | Button
-Tooltip | Tooltip
-Breadcrumb | Breadcrumb
-Carousel | Carousel
-Cascader | Cascader
-Collapse | Collapse
-DatePicker | DatePicker
-Empty | Empty
-Form | Form
+| Trigger    | Description |
+| ---------- | ----------- |
+| Button     | Button      |
+| Tooltip    | Tooltip     |
+| Breadcrumb | Breadcrumb  |
+| Carousel   | Carousel    |
+| Cascader   | Cascader    |
+| Collapse   | Collapse    |
+| DatePicker | DatePicker  |
+| Empty      | Empty       |
+| Form       | Form        |
 
-```Supports Antd all components, just Try!```
+`Supports Antd all components, just Try!`
+
 ## License
+
 MIT
