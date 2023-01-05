@@ -219,7 +219,18 @@
     "antd-TreeSelect": {
         "prefix": "TreeSelect",
         "body": [
-            "$BLOCK_COMMENT_START https://ant-design.gitee.io/components/tree-select-cn $BLOCK_COMMENT_START",
+            "<TreeSelect",
+            "    showSearch",
+            "    allowClear",
+            "    multiple={false}",
+            "    placeholder='Please select'",
+            "    treeData={[{ value: 'value', title: 'title', children: [] }]}",
+            "    onChange={(value) => console.log(value)}",
+            "    // 输入项过滤对应的 treeNode 属性",
+            "    // treeNodeFilterProp={'title'}",
+            "    // 更多属性请查看：",
+            "    // https://ant-design.gitee.io/components/tree-select-cn",
+            "/>",
         ],
     },
     "antd-Upload": {
@@ -403,7 +414,7 @@
     "antd-message": {
         "prefix": "message",
         "body": [
-            "message.info('Hello, Ant Design!');",
+            "message.${1|info,error,warning|}(\"${2:input your message}\");",
         ],
     },
     "antd-Modal": {
