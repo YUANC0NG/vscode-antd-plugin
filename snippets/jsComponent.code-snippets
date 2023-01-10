@@ -420,10 +420,14 @@
     "antd-Modal": {
         "prefix": "Modal",
         "body": [
-            "<Modal title='Basic Modal' open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>",
-            "    <p>Some contents...</p>",
-            "    <p>Some contents...</p>",
-            "    <p>Some contents...</p>",
+            "<Modal",
+            "    title='Basic Modal'",
+            "    onOk={() => { }}",
+            "    onCancel={() => { }}",
+            "    visible={true}",
+            "    width={600}",
+            ">",
+            "    <div>API: https://ant-design.gitee.io/components/modal-cn</div>",
             "</Modal>",
         ],
     },
