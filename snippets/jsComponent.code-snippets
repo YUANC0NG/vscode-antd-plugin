@@ -1,13 +1,13 @@
 // jsComponent copy.code-snippets 文件如下配置
 {
     "import antd": {
-        "prefix": "im",
+        "prefix": "antd",
         "body": [
             "import { ${0} } from 'antd';",
         ],
     },
     "import @ant-design/icons": {
-        "prefix": "im",
+        "prefix": "antd",
         "body": [
             "import { ${0} } from '@ant-design/icons';",
         ],
